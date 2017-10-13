@@ -346,6 +346,45 @@
 .design-system-header__navigation-toggle-checkbox:checked ~ .design-system-header__navigation {
   display: block; }
 
+/**
+ * Masthead Component
+ *
+ * Notes:
+ * - It's big and it's blue
+ *
+ * Example Usage:
+ *
+ * <div class="masthead">
+ *  [...]
+ * </div>
+ */
+.masthead {
+  background-color: #005ea5;
+  padding: 30px;
+  color: white;
+  width: 101%;
+  margin-left: -32px; }
+  @media (max-width: 640px) {
+    .masthead {
+      padding: 15px; } }
+  .masthead a {
+    color: white;
+    text-decoration: none; }
+  .masthead .hero__title {
+    display: block;
+    max-width: 13em; }
+    @media (max-width: 640px) {
+      .masthead .hero__title {
+        max-width: 100%; } }
+  .masthead .hero__description {
+    margin-bottom: 10px;
+    max-width: 25em; }
+    @media (max-width: 640px) {
+      .masthead .hero__description {
+        max-width: 100%; } }
+  .masthead ul {
+    margin-bottom: 0; }
+
 .sub-nav {
   padding: 0px 10px 0px 15px;
   background-color: #f0f0f0; }
